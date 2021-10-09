@@ -19,10 +19,6 @@ function integerArrayToHexString(arr) {
   return outputString;
 }
 
-console.log('==============================================================');
-console.log('DO NOT INCLUDE THE LEADING "0x" BEFORE PUBLIC AND PRIVATE KEYS');
-console.log('==============================================================');
-
 r1.question('Sender address? ', (sender) => {
   r1.question('Recipient address? ', (recipient) => {
     r1.question('Amount? ', (amount) => {
